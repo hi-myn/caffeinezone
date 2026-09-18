@@ -7,7 +7,7 @@ tipos de bebida para manter uma janela segura de performance
 cognitiva.
 
 > Projeto desenvolvido como Trabalho de Conclusão de Curso — Engenharia
-> da Computação, UNINTER.
+> de Software, UNINTER.
 
 ## 📌 Sobre o projeto
 
