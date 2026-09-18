@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CaffeineZone.App/CaffeineZone.App.csproj" />
+  <Project Path="CaffeineZone.Core/CaffeineZone.Core.csproj" />
+  <Project Path="CaffeineZone.Tests/CaffeineZone.Tests.csproj" />
+</Solution>
