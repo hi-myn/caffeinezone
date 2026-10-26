@@ -17,13 +17,13 @@ jobs:
       - name: Configurar .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: '10.0.x'
 
       - name: Restaurar dependências
-        run: dotnet restore
+        run: dotnet restore CaffeineZone.slnx
 
       - name: Build
-        run: dotnet build --no-restore --configuration Release
+        run: dotnet build CaffeineZone.slnx --no-restore --configuration Release
 
       - name: Rodar testes
-        run: dotnet test --no-build --configuration Release
+        run: dotnet test CaffeineZone.slnx --no-build --configuration Release
